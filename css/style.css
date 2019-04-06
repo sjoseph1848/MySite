@@ -25,6 +25,11 @@ p {
   color: #a05f0a;
 }
 
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
 /* Navbar classes */
 #navbar {
   display: flex;
@@ -55,3 +60,31 @@ p {
   background: #a05f0a;
   border-radius: 5px;
 }
+
+/* Intro */
+/* this places the photo in and gives it a height and text colro */
+#intro {
+  background: #333 url('../img/intro.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#intro .intro-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* We need an overlay to make it easier to read */
+  position: absolute;
+  top: 65px;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+
