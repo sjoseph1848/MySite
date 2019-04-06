@@ -36,7 +36,14 @@ p {
   z-index: 1;
   padding: 1rem;
 }
+/* This moves everything horizontally */
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
 
+/* This changes the text color white and adds spacing */
 #navbar ul li a {
   color: #fff;
   padding: 0.75rem;
