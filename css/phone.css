@@ -14,4 +14,9 @@
   #navbar ul {
     padding: 0.5rem;
   }
+
+  /* Intro section */
+  #intro .intro-content {
+    top: 110px;
+  }
 }
