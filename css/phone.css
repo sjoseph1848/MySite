@@ -19,4 +19,9 @@
   #intro .intro-content {
     top: 110px;
   }
+
+  /* Contac */
+  #contact .contact-img {
+    display:none;
+  }
 }
