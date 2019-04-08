@@ -30,6 +30,24 @@ p {
   margin-bottom: 2rem;
 }
 
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
 /* Navbar classes */
 #navbar {
   display: flex;
@@ -86,5 +104,20 @@ p {
   background-color: rgba(0,0,0,0.6);
 }
 
+/* Contact */
+#contact {
+  display:flex;
+}
+#contact div {
+  flex:1;
+}
+
+#contact .contact-img {
+  background: url('../img/liftoff.jpg') no-repeat center center/cover;
+}
+
+
+
+/* Footer */
 
 
