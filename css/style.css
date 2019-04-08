@@ -48,6 +48,12 @@ p {
 .p-2 { padding: 2rem; }
 .p-3 { padding: 3rem; }
 
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
 /* Navbar classes */
 #navbar {
   display: flex;
@@ -102,6 +108,20 @@ p {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.6);
+}
+
+/* About Us */
+
+#about {
+  display: flex;
+}
+
+#about div {
+  flex:1;
+}
+#about .about-img{
+  background: url('../img/sam.jpg') no-repeat center center/cover;
+ 
 }
 
 /* Contact */
