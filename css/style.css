@@ -19,6 +19,24 @@ p {
   margin: 0.75rem 0;
 }
 
+.btn {
+  display: inline-block;
+  color: #333;
+  background: #a05f0a;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* .btn:hover {
+  background: #fff;
+} */
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
 /* CSS Classes */
 
 .text-primary {
