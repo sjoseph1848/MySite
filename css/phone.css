@@ -42,7 +42,7 @@
 @media(max-height: 500px) {
   #intro .intro-content {
     margin-top: -2rem;
-    top: 140px;
+  
   }
 
   .l-heading {
@@ -52,4 +52,21 @@
   .lead {
     font-size: 1rem;
   }
+}
+
+@media(max-width : 400px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
 }
