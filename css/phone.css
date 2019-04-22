@@ -39,7 +39,7 @@
   }
 }
 
-@media(max-height: 568px) {
+@media(max-height: 500px) {
   #intro .intro-content {
     margin-top: -2rem;
     top: 140px;
