@@ -28,9 +28,10 @@ p {
   border-radius: 5px;
 }
 
-/* .btn:hover {
-  background: #fff;
-} */
+.btn:hover {
+  color: #333;
+  
+}
 
 .btn-dark {
   background: #333;
@@ -39,7 +40,7 @@ p {
 
 /* CSS Classes */
 
-.text-primary {
+.text-burnt {
   color: #a05f0a;
 }
 
@@ -142,8 +143,26 @@ p {
  
 }
 
+/* Carousel */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background:url('../img/caro-1.jpg');
+  background-size:cover;
+}
+.carousel-image-2 {
+  background:url('../img/caro-2.jpg');
+  background-size:cover;
+}
+.carousel-image-3 {
+  background:url('../img/caro-3.jpg');
+  background-size:cover;
+}
+
 /* Section: What We Do */
-#portfolio .items {
+/* #portfolio .items {
   display: flex;
   padding: 1rem;
 }
@@ -159,7 +178,7 @@ p {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
-}
+} */
 
 /* Contact */
 #contact {
